@@ -4,7 +4,7 @@ const Sequelize = require('sequelize');
 
 //Conectando o banco de dados do mysql criado lá como guiaperguntas
 //adicionando root, senha do bd e onde está sendo rodado com o dialeto do bd
-const connection = new Sequelize('guiaperguntas', 'root', 'Hb123456', {
+const connection = new Sequelize('guiaperguntas', 'root', 'hbfluir21', {
     host: 'localhost',
     dialect: 'mysql'
 });
